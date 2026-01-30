@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Train",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "PyTorch-Simple-MaskRCNN_train/train.py",
+            "console": "integratedTerminal",
+            "python": "/workspace/PyTorch-Simple-MaskRCNN_train/.venv/bin/python",
+            "args": [
+                "--use-cuda",
+                // "--batch_size=5",
+                "--lr=1.0e-04",
+                "--data-dir=PyTorch-Simple-MaskRCNN_train/data/coco",
+            ]
+        }
+    ]
+}

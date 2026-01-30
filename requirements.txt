@@ -1,0 +1,7 @@
+pycocotools>=2.0.7
+torch==1.13.1
+torchvision==0.14.1
+
+numpy<2
+matplotlib<3.9
+scipy<1.12

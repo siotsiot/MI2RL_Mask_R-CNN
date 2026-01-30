@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Train",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "train.py",
+            "console": "integratedTerminal",
+            "python": "/workspace/PyTorch-Simple-MaskRCNN_train/.venv/bin/python",
+            "args": [
+                "--use-cuda",
+                "--lr", "1.0e-04",
+                "--data-dir", "/workspace/data/dental",
+                "--epochs", "1",
+                "--print-freq", "10"
+            ]
+        }
+    ]
+}
